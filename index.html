@@ -3,18 +3,27 @@
 <main>
 <head>
   <link rel="stylesheet" href="styles.css">
-  <title>Subject TBD</title>
-  <h1 id="title">Subject TBD</h1>
-  <p id="description">Description Here</p>
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Staatliches" rel="stylesheet">
+  <title>Survey: Sleep Quality</title>
+  <h1 id="title">How Have You Been Sleeping?</h1>
+  <p id="description">According to <a href="https://www.cdc.gov/media/releases/2016/p0215-enough-sleep.html">the CDC</a>,
+  1 in 3 Americans don't get enough sleep. Poor sleep quality is a critical factor in sleep deprivation. We're surveying nightly habits
+  and sleep quality to better understand the relationship between environment and sleep deprivation.</p>
 </head>
 <body>
   <form id="survey-form" action="#">
+    <label id="name-label">Name:</label>
     <input id="name" type="text" placeholder="* Your name" required>
+    <label id="email-label">Email:</label>
     <input id="email" type="email" placeholder="your.email@email.com" required>
+    <label id="number-label">Age:</label>
     <input id="number" type="number" placeholder="Your age" min="13" max="100" required>
+    <label>Hours of sleep you get each night:</label>
     <select id="dropdown">
-      <option value="yes">Yes</option>
-      <option value="why">Why</option>
+      <option value="<3">Less than 3 hours</option>
+      <option value="4-6">4-6 hours</option>
+      <option value="7-8">7-8 hours</option>
+      <option value="9plus">9 or more hours</option>
     </select>
     <button type="submit">Submit</button>
   </form>

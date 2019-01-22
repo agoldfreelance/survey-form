@@ -1,9 +1,19 @@
-.data-field {
-
+main{
+  background-color: #c1f7dc;
+  font-family: 'Crimson Text', serif;
 }
-.label {
-
+#title {
+  font-size: 72px;
+  color: #0b2333;
+  font-family: 'Staatliches', cursive;
+  text-align: center;
 }
-main{}
-#title {}
-#description {}
+#description {
+  margin: auto;
+}
+#survey-form {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-gap: 20px;
+  justify-items: right;
+}

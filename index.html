@@ -18,13 +18,26 @@
     <input id="email" type="email" placeholder="your.email@email.com" required>
     <label id="number-label">Age:</label>
     <input id="number" type="number" placeholder="Your age" min="13" max="100" required>
-    <label>Hours of sleep you get each night:</label>
+    <label>Sleep(hours/night):</label>
     <select id="dropdown">
       <option value="<3">Less than 3 hours</option>
       <option value="4-6">4-6 hours</option>
       <option value="7-8">7-8 hours</option>
       <option value="9plus">9 or more hours</option>
     </select>
+    <label>Sleep Quality:</label>
+    <div id="quality-radio">
+      <label value="very-poor"><input type="radio" name="quality" checked>
+      Very Poor</label><br>
+      <label value="somewhat-poor"><input type="radio" name="quality" checked>
+      Somewhat Poor</label><br>
+      <label value"fair"><input type="radio" name="quality" checked>
+      Fair</label><br>
+      <label value="good"><input type="radio" name="quality" checked>
+      Good</label><br>
+      <label value="very-good"><input type="radio" name="quality" checked>
+      Very Good</label>
+    </div><br>
     <button type="submit">Submit</button>
   </form>
 

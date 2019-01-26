@@ -1,19 +1,28 @@
 main{
-  background-color: #c1f7dc;
+  background-color: #9ed7e5;
   font-family: 'Crimson Text', serif;
+  padding: 30px;
 }
 #title {
   font-size: 72px;
   color: #0b2333;
   font-family: 'Staatliches', cursive;
+  position: relative;
+  top: 100px;
   text-align: center;
 }
 #description {
-  margin: auto;
+  margin: 10%;
+  font-size: 32px;
 }
 #survey-form {
+  background: #386fa4;
+  color: #c1f7dc;
+  padding: 20px;
+  font-size: 24px;
   display: grid;
   grid-template-columns: 150px 150px;
   grid-gap: 20px;
   justify-items: right;
+  justify-content: center;
 }

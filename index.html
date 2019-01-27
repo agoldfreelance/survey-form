@@ -39,11 +39,38 @@
        value="very-good">Very Good</label><br>
       <label for="excellent"><input type="radio" name="quality"
        value="excellent">Excellent</label>
+    </div>
+    <label>Do you use any of the following to aid your sleep?</label>
+    <div id="sleep-aids">
+      <label for="melatonin"><input type="checkbox" name="aids"
+        value="melatonin">Melatonin</label><br>
+      <label for="otc"><input type="checkbox" name="aids"
+        value="otc">Over-the-counter sleep aid</label><br>
+      <label for="prescription"><input type="checkbox" name="aids"
+        value="prescription">Prescription sleep aid</label><br>
+      <label for="meditation"><input type="checkbox" name="aids"
+        value="meditation">Meditation / mindfulness</label><br>
+    </div>
+    <label>How would you rate the effectiveness of your sleep aid(s)?</label>
+    <div id="aid-quality">
+      <label for="Ineffective"><input type="radio" name="aid-quality"
+       value="ineffective" checked>Ineffective</label><br>
+      <label for="little-effective"><input type="radio" name="aid-quality"
+       value="little-effective">A Little Effective</label><br>
+      <label for="somewhat-effective"><input type="radio" name="aid-quality"
+       value="somewhat-effective">Somewhat Effective</label><br>
+      <label for="effective"><input type="radio" name="aid-quality" value="effective">
+       Effective</label><br>
+    </div>
+    <label>What are your sleep improvement goals? (Optional)</label>
+    <div id="comments">
+      <textarea>Type your goals here</textarea>
     </div><br>
-    <button type="submit">Submit</button>
+    <button id="submit" type="submit">Submit</button>
   </form>
 
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
+<footer><a href="#">&copy;2019 Imaginary Institute for Sleep</a></footer>
 </main>
 </html>

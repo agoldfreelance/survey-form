@@ -32,6 +32,7 @@ input {
   font-size: 26px;
   display: grid;
   grid-template-columns: 55% 35%;
+  grid-gap: 5px;
   justify-items: right;
   align-items: center;
   justify-content: center;
@@ -50,6 +51,30 @@ input {
   padding: 10px;
   margin-bottom: 20px;
 }
+#sleep-aids {
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  color: black;
+  background: #90d4e5;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#aid-quality {
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  color: black;
+  background: #90d4e5;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+textarea {
+  font-family: sans-serif;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+}
 button {
   padding: 10px;
   background: #7ef7ba;
@@ -57,6 +82,9 @@ button {
   border-color: #0b2333;
   font-family: 'Staatliches', cursive;
   display: block;
-  width: 35%;
+  width: auto;
   font-size: 24px;
+}
+footer {
+  text-align: center;
 }

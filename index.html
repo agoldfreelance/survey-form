@@ -18,25 +18,27 @@
     <input id="email" type="email" placeholder="your.email@email.com" required>
     <label id="number-label">Age:</label>
     <input id="number" type="number" placeholder="Your age" min="13" max="100" required>
-    <label>Sleep(hours/night):</label>
+    <label id= "sleep">How many hours of sleep do you get each night?</label>
     <select id="dropdown">
       <option value="<3">Less than 3 hours</option>
       <option value="4-6">4-6 hours</option>
       <option value="7-8">7-8 hours</option>
       <option value="9plus">9 or more hours</option>
     </select>
-    <label>Sleep Quality:</label>
+    <label>How would you rate the quality of your sleep?</label>
     <div id="quality-radio">
-      <label value="very-poor"><input type="radio" name="quality" checked>
-      Very Poor</label><br>
-      <label value="somewhat-poor"><input type="radio" name="quality" checked>
-      Somewhat Poor</label><br>
-      <label value"fair"><input type="radio" name="quality" checked>
-      Fair</label><br>
-      <label value="good"><input type="radio" name="quality" checked>
-      Good</label><br>
-      <label value="very-good"><input type="radio" name="quality" checked>
-      Very Good</label>
+      <label for="very-poor"><input type="radio" name="quality"
+       value="very-poor">Very Poor</label><br>
+      <label for="somewhat-poor"><input type="radio" name="quality"
+       value="somewhat-poor">Somewhat Poor</label><br>
+      <label for"fair"><input type="radio" name="quality" checked
+       value="fair">Fair</label><br>
+      <label for="good"><input type="radio" name="quality" value="good">
+       Good</label><br>
+      <label for="very-good"><input type="radio" name="quality"
+       value="very-good">Very Good</label><br>
+      <label for="excellent"><input type="radio" name="quality"
+       value="excellent">Excellent</label>
     </div><br>
     <button type="submit">Submit</button>
   </form>

@@ -1,14 +1,22 @@
 main{
-  background-color: #9ed7e5;
+  background-color: #c1f7dc;
   font-family: 'Crimson Text', serif;
   padding: 30px;
 }
+input {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
 #title {
   font-size: 72px;
-  color: #0b2333;
+  color: white;
   font-family: 'Staatliches', cursive;
   position: relative;
-  top: 100px;
+  margin: 15px;
+  padding: 50px;
+  border-radius: 20px;
+  background: #0b2333;
   text-align: center;
 }
 #description {
@@ -16,13 +24,39 @@ main{
   font-size: 32px;
 }
 #survey-form {
-  background: #386fa4;
-  color: #c1f7dc;
+  background: #59a5d8;
+  color: #0b2333;
+  border-radius: 10px;
+  font-family: 'Staatliches', cursive;
   padding: 20px;
-  font-size: 24px;
+  font-size: 26px;
   display: grid;
-  grid-template-columns: 150px 150px;
-  grid-gap: 20px;
+  grid-template-columns: 55% 35%;
   justify-items: right;
+  align-items: center;
   justify-content: center;
+  max-width: 80%;
+  margin: auto;
+}
+#sleep {
+  font-size: 20;
+}
+#quality-radio {
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  color: black;
+  background: #90d4e5;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+button {
+  padding: 10px;
+  background: #7ef7ba;
+  border-radius: 5px;
+  border-color: #0b2333;
+  font-family: 'Staatliches', cursive;
+  display: block;
+  width: 35%;
+  font-size: 24px;
 }

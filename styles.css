@@ -50,6 +50,7 @@ input {
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 20px;
+  box-shadow: 0 5px 5px #0b2333;
 }
 #sleep-aids {
   font-family: 'Crimson Text', serif;
@@ -59,6 +60,7 @@ input {
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 20px;
+  box-shadow: 0 5px 5px #0b2333;
 }
 #aid-quality {
   font-family: 'Crimson Text', serif;
@@ -68,6 +70,7 @@ input {
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 20px;
+  box-shadow: 0 5px 5px #0b2333;
 }
 textarea {
   font-family: sans-serif;
@@ -84,6 +87,17 @@ button {
   display: block;
   width: auto;
   font-size: 24px;
+}
+button:hover {
+  animation-name: background-color;
+  animation-duration: 100ms;
+  animation-fill-mode: forwards;
+}
+@keyframes background-color {
+  100% {
+    background: #0b2333;
+    color: #c1f7dc;
+  }
 }
 footer {
   text-align: center;
